@@ -8,7 +8,7 @@ f = open('sample.json', encoding='utf-8')
 res = f.read()
 data = json.loads(res)
 
-dir_name = "D:\Grade2Last\dataAnalysis\dataSet"
+dir_name = "D:\PyProjects\dataAnalysis\dataSet"
 os.mkdir(dir_name)
 os.chdir(dir_name)
 
