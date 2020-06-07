@@ -9,6 +9,10 @@ f = open('testdata.json', encoding='utf-8')
 res = f.read()
 data = json.loads(res)
 
+dir_name = "D:\PyProjects\dataAnalysis\dataSet"
+os.mkdir(dir_name)
+os.chdir(dir_name)
+
 for key in data:
     cases = data[key]['cases']
     user_id = str(data[key]['user_id'])
