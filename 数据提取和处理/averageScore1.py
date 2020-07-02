@@ -24,8 +24,10 @@ for key in data:
         score.append(key["score"])
 
 for i in range(0,len(cases)):
+    if count[i]<44:
+        score[i] = (score[i] * count[i]) / 44
     users[cases[i]]=score[i]
 
 json_str=json.dumps(users,indent=4)
-with open("D:\数据科学大作业"+"\\"+"averageScore.json",'w') as json_file:
+with open("D:\数据科学大作业"+"\\"+"averageScore1.json",'w') as json_file:
     json_file.write(json_str)
