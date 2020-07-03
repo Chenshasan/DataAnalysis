@@ -1,6 +1,6 @@
 import json
 
-score = json.loads(open('../数据提取和处理/averageScore.json', encoding='utf-8').read())
+score = json.loads(open('../数据提取和处理/averageScore1.json', encoding='utf-8').read())
 data = json.loads(open('result.json', encoding='utf-8').read())
 res = {}
 max = 0
