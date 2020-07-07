@@ -433,6 +433,12 @@
             "complication": 1
         }
     ],
+      "2843": [
+        {
+            "case_id": "2542",
+            "complication": 1
+        }
+    ],
     "34511": [
         {
             "case_id": "2792",
@@ -1039,6 +1045,88 @@
         {
             "case_id": "2991",
             "complication": 1
+        }
+    ],
+      "39190": [
+        {
+            "case_id": "2526",
+            "complication": 3
+        },
+        {
+            "case_id": "2595",
+            "complication": 2
+        },
+        {
+            "case_id": "2620",
+            "complication": 3
+        },
+        {
+            "case_id": "2741",
+            "complication": 3
+        },
+        {
+            "case_id": "2869",
+            "complication": 3
+        },
+        {
+            "case_id": "2871",
+            "complication": 1
+        },
+        {
+            "case_id": "2878",
+            "complication": 1
+        },
+        {
+            "case_id": "2880",
+            "complication": 3
+        },
+        {
+            "case_id": "2883",
+            "complication": 2
+        },
+        {
+            "case_id": "2884",
+            "complication": 4
+        },
+        {
+            "case_id": "2885",
+            "complication": 3
+        },
+        {
+            "case_id": "2886",
+            "complication": 3
+        },
+        {
+            "case_id": "2887",
+            "complication": 3
+        },
+        {
+            "case_id": "2889",
+            "complication": 1
+        },
+        {
+            "case_id": "2891",
+            "complication": 1
+        },
+        {
+            "case_id": "2893",
+            "complication": 3
+        },
+        {
+            "case_id": "2897",
+            "complication": 5
+        },
+        {
+            "case_id": "2913",
+            "complication": 1
+        },
+        {
+            "case_id": "2922",
+            "complication": 3
+        },
+        {
+            "case_id": "2930",
+            "complication": 3
         }
     ],
     "39200": [
@@ -26943,6 +27031,308 @@
             "complication": 3
         }
     ],
+      "60617": [
+        {
+            "case_id": "2151",
+            "complication": 1
+        },
+        {
+            "case_id": "2187",
+            "complication": 4
+        },
+        {
+            "case_id": "2205",
+            "complication": 4
+        },
+        {
+            "case_id": "2207",
+            "complication": 3
+        },
+        {
+            "case_id": "2282",
+            "complication": 8
+        },
+        {
+            "case_id": "2285",
+            "complication": 7
+        },
+        {
+            "case_id": "2293",
+            "complication": 2
+        },
+        {
+            "case_id": "2427",
+            "complication": 5
+        },
+        {
+            "case_id": "2428",
+            "complication": 5
+        },
+        {
+            "case_id": "2429",
+            "complication": 5
+        },
+        {
+            "case_id": "2430",
+            "complication": 7
+        },
+        {
+            "case_id": "2436",
+            "complication": 1
+        },
+        {
+            "case_id": "2440",
+            "complication": 1
+        },
+        {
+            "case_id": "2442",
+            "complication": 1
+        },
+        {
+            "case_id": "2443",
+            "complication": 1
+        },
+        {
+            "case_id": "2444",
+            "complication": 11
+        },
+        {
+            "case_id": "2445",
+            "complication": 6
+        },
+        {
+            "case_id": "2448",
+            "complication": 1
+        },
+        {
+            "case_id": "2456",
+            "complication": 1
+        },
+        {
+            "case_id": "2467",
+            "complication": 4
+        },
+        {
+            "case_id": "2468",
+            "complication": 6
+        },
+        {
+            "case_id": "2489",
+            "complication": 1
+        },
+        {
+            "case_id": "2490",
+            "complication": 1
+        },
+        {
+            "case_id": "2491",
+            "complication": 1
+        },
+        {
+            "case_id": "2494",
+            "complication": 1
+        },
+        {
+            "case_id": "2495",
+            "complication": 8
+        },
+        {
+            "case_id": "2500",
+            "complication": 1
+        },
+        {
+            "case_id": "2522",
+            "complication": 1
+        },
+        {
+            "case_id": "2523",
+            "complication": 1
+        },
+        {
+            "case_id": "2527",
+            "complication": 1
+        },
+        {
+            "case_id": "2528",
+            "complication": 1
+        },
+        {
+            "case_id": "2533",
+            "complication": 1
+        },
+        {
+            "case_id": "2535",
+            "complication": 1
+        },
+        {
+            "case_id": "2536",
+            "complication": 6
+        },
+        {
+            "case_id": "2538",
+            "complication": 4
+        },
+        {
+            "case_id": "2539",
+            "complication": 1
+        },
+        {
+            "case_id": "2542",
+            "complication": 1
+        },
+        {
+            "case_id": "2543",
+            "complication": 8
+        },
+        {
+            "case_id": "2562",
+            "complication": 15
+        },
+        {
+            "case_id": "2564",
+            "complication": 1
+        },
+        {
+            "case_id": "2601",
+            "complication": 6
+        },
+        {
+            "case_id": "2602",
+            "complication": 1
+        },
+        {
+            "case_id": "2604",
+            "complication": 4
+        },
+        {
+            "case_id": "2634",
+            "complication": 4
+        },
+        {
+            "case_id": "2651",
+            "complication": 4
+        },
+        {
+            "case_id": "2655",
+            "complication": 3
+        },
+        {
+            "case_id": "2656",
+            "complication": 4
+        },
+        {
+            "case_id": "2658",
+            "complication": 4
+        },
+        {
+            "case_id": "2659",
+            "complication": 2
+        },
+        {
+            "case_id": "2661",
+            "complication": 2
+        },
+        {
+            "case_id": "2662",
+            "complication": 3
+        },
+        {
+            "case_id": "2665",
+            "complication": 6
+        },
+        {
+            "case_id": "2667",
+            "complication": 2
+        },
+        {
+            "case_id": "2668",
+            "complication": 2
+        },
+        {
+            "case_id": "2669",
+            "complication": 4
+        },
+        {
+            "case_id": "2671",
+            "complication": 3
+        },
+        {
+            "case_id": "2673",
+            "complication": 8
+        },
+        {
+            "case_id": "2692",
+            "complication": 1
+        },
+        {
+            "case_id": "2729",
+            "complication": 1
+        },
+        {
+            "case_id": "2737",
+            "complication": 1
+        },
+        {
+            "case_id": "2738",
+            "complication": 1
+        },
+        {
+            "case_id": "2739",
+            "complication": 1
+        },
+        {
+            "case_id": "2741",
+            "complication": 1
+        },
+        {
+            "case_id": "2784",
+            "complication": 2
+        },
+        {
+            "case_id": "2786",
+            "complication": 3
+        },
+        {
+            "case_id": "2787",
+            "complication": 1
+        },
+        {
+            "case_id": "2788",
+            "complication": 4
+        },
+        {
+            "case_id": "2792",
+            "complication": 1
+        },
+        {
+            "case_id": "2793",
+            "complication": 4
+        },
+        {
+            "case_id": "2796",
+            "complication": 3
+        },
+        {
+            "case_id": "2797",
+            "complication": 5
+        },
+        {
+            "case_id": "2801",
+            "complication": 3
+        },
+        {
+            "case_id": "2815",
+            "complication": 5
+        },
+        {
+            "case_id": "2819",
+            "complication": 2
+        },
+        {
+            "case_id": "2985",
+            "complication": 2
+        }
+    ],
     "60618": [
         {
             "case_id": "2092",
@@ -30675,6 +31065,80 @@
         {
             "case_id": "2718",
             "complication": 3
+        }
+    ],
+      "60628": [
+        {
+            "case_id": "2442",
+            "complication": 1
+        },
+        {
+            "case_id": "2606",
+            "complication": 1
+        },
+        {
+            "case_id": "2694",
+            "complication": 1
+        },
+        {
+            "case_id": "2701",
+            "complication": 1
+        },
+        {
+            "case_id": "2703",
+            "complication": 1
+        },
+        {
+            "case_id": "2705",
+            "complication": 1
+        },
+        {
+            "case_id": "2706",
+            "complication": 1
+        },
+        {
+            "case_id": "2707",
+            "complication": 1
+        },
+        {
+            "case_id": "2711",
+            "complication": 1
+        },
+        {
+            "case_id": "2715",
+            "complication": 1
+        },
+        {
+            "case_id": "2716",
+            "complication": 1
+        },
+        {
+            "case_id": "2717",
+            "complication": 1
+        },
+        {
+            "case_id": "2718",
+            "complication": 1
+        },
+        {
+            "case_id": "2720",
+            "complication": 1
+        },
+        {
+            "case_id": "2726",
+            "complication": 1
+        },
+        {
+            "case_id": "2729",
+            "complication": 1
+        },
+        {
+            "case_id": "2737",
+            "complication": 1
+        },
+        {
+            "case_id": "2745",
+            "complication": 1
         }
     ],
     "60630": [
@@ -80423,6 +80887,7 @@
             "complication": 4
         }
     ],
+
     "60790": [
         {
             "case_id": "2162",
@@ -84333,6 +84798,304 @@
             "complication": 4
         }
     ],
+  "60797": [
+        {
+            "case_id": "2343",
+            "complication": 1
+        },
+        {
+            "case_id": "2374",
+            "complication": 4
+        },
+        {
+            "case_id": "2442",
+            "complication": 5
+        },
+        {
+            "case_id": "2444",
+            "complication": 11
+        },
+        {
+            "case_id": "2469",
+            "complication": 11
+        },
+        {
+            "case_id": "2483",
+            "complication": 5
+        },
+        {
+            "case_id": "2484",
+            "complication": 2
+        },
+        {
+            "case_id": "2485",
+            "complication": 5
+        },
+        {
+            "case_id": "2487",
+            "complication": 6
+        },
+        {
+            "case_id": "2527",
+            "complication": 6
+        },
+        {
+            "case_id": "2528",
+            "complication": 2
+        },
+        {
+            "case_id": "2536",
+            "complication": 6
+        },
+        {
+            "case_id": "2557",
+            "complication": 4
+        },
+        {
+            "case_id": "2559",
+            "complication": 5
+        },
+        {
+            "case_id": "2560",
+            "complication": 6
+        },
+        {
+            "case_id": "2590",
+            "complication": 5
+        },
+        {
+            "case_id": "2606",
+            "complication": 1
+        },
+        {
+            "case_id": "2646",
+            "complication": 3
+        },
+        {
+            "case_id": "2649",
+            "complication": 3
+        },
+        {
+            "case_id": "2697",
+            "complication": 8
+        },
+        {
+            "case_id": "2701",
+            "complication": 20
+        },
+        {
+            "case_id": "2703",
+            "complication": 10
+        },
+        {
+            "case_id": "2707",
+            "complication": 1
+        },
+        {
+            "case_id": "2715",
+            "complication": 1
+        },
+        {
+            "case_id": "2716",
+            "complication": 1
+        },
+        {
+            "case_id": "2717",
+            "complication": 1
+        },
+        {
+            "case_id": "2721",
+            "complication": 2
+        },
+        {
+            "case_id": "2724",
+            "complication": 10
+        },
+        {
+            "case_id": "2725",
+            "complication": 3
+        },
+        {
+            "case_id": "2727",
+            "complication": 2
+        },
+        {
+            "case_id": "2728",
+            "complication": 2
+        },
+        {
+            "case_id": "2729",
+            "complication": 1
+        },
+        {
+            "case_id": "2730",
+            "complication": 3
+        },
+        {
+            "case_id": "2731",
+            "complication": 6
+        },
+        {
+            "case_id": "2732",
+            "complication": 2
+        },
+        {
+            "case_id": "2737",
+            "complication": 1
+        },
+        {
+            "case_id": "2761",
+            "complication": 2
+        },
+        {
+            "case_id": "2815",
+            "complication": 5
+        },
+        {
+            "case_id": "2819",
+            "complication": 2
+        },
+        {
+            "case_id": "2823",
+            "complication": 5
+        },
+        {
+            "case_id": "2824",
+            "complication": 5
+        },
+        {
+            "case_id": "2830",
+            "complication": 1
+        },
+        {
+            "case_id": "2831",
+            "complication": 1
+        },
+        {
+            "case_id": "2832",
+            "complication": 3
+        },
+        {
+            "case_id": "2835",
+            "complication": 3
+        },
+        {
+            "case_id": "2836",
+            "complication": 5
+        },
+        {
+            "case_id": "2837",
+            "complication": 1
+        },
+        {
+            "case_id": "2838",
+            "complication": 1
+        },
+        {
+            "case_id": "2840",
+            "complication": 3
+        },
+        {
+            "case_id": "2842",
+            "complication": 4
+        },
+        {
+            "case_id": "2843",
+            "complication": 2
+        },
+        {
+            "case_id": "2844",
+            "complication": 3
+        },
+        {
+            "case_id": "2845",
+            "complication": 1
+        },
+        {
+            "case_id": "2848",
+            "complication": 2
+        },
+        {
+            "case_id": "2849",
+            "complication": 2
+        },
+        {
+            "case_id": "2850",
+            "complication": 3
+        },
+        {
+            "case_id": "2851",
+            "complication": 1
+        },
+        {
+            "case_id": "2852",
+            "complication": 3
+        },
+        {
+            "case_id": "2853",
+            "complication": 2
+        },
+        {
+            "case_id": "2855",
+            "complication": 9
+        },
+        {
+            "case_id": "2857",
+            "complication": 5
+        },
+        {
+            "case_id": "2858",
+            "complication": 3
+        },
+        {
+            "case_id": "2859",
+            "complication": 4
+        },
+        {
+            "case_id": "2861",
+            "complication": 1
+        },
+        {
+            "case_id": "2863",
+            "complication": 1
+        },
+        {
+            "case_id": "2865",
+            "complication": 3
+        },
+        {
+            "case_id": "2866",
+            "complication": 1
+        },
+        {
+            "case_id": "2867",
+            "complication": 2
+        },
+        {
+            "case_id": "2868",
+            "complication": 2
+        },
+        {
+            "case_id": "2870",
+            "complication": 4
+        },
+        {
+            "case_id": "2872",
+            "complication": 3
+        },
+        {
+            "case_id": "2873",
+            "complication": 1
+        },
+        {
+            "case_id": "2875",
+            "complication": 2
+        },
+        {
+            "case_id": "2877",
+            "complication": 3
+        }
+    ],
     "60799": [
         {
             "case_id": "2063",
@@ -87539,6 +88302,657 @@
             "complication": 16
         }
     ],
+  "60828": [
+        {
+            "case_id": "2603",
+            "complication": 1
+        },
+        {
+            "case_id": "2701",
+            "complication": 20
+        },
+        {
+            "case_id": "2789",
+            "complication": 3
+        },
+        {
+            "case_id": "2790",
+            "complication": 1
+        },
+        {
+            "case_id": "2791",
+            "complication": 1
+        },
+        {
+            "case_id": "2795",
+            "complication": 6
+        },
+        {
+            "case_id": "2800",
+            "complication": 3
+        },
+        {
+            "case_id": "2802",
+            "complication": 4
+        },
+        {
+            "case_id": "2803",
+            "complication": 3
+        },
+        {
+            "case_id": "2804",
+            "complication": 1
+        },
+        {
+            "case_id": "2805",
+            "complication": 3
+        },
+        {
+            "case_id": "2806",
+            "complication": 2
+        },
+        {
+            "case_id": "2808",
+            "complication": 2
+        },
+        {
+            "case_id": "2809",
+            "complication": 1
+        },
+        {
+            "case_id": "2811",
+            "complication": 3
+        },
+        {
+            "case_id": "2812",
+            "complication": 1
+        },
+        {
+            "case_id": "2814",
+            "complication": 3
+        },
+        {
+            "case_id": "2816",
+            "complication": 1
+        },
+        {
+            "case_id": "2817",
+            "complication": 3
+        },
+        {
+            "case_id": "2818",
+            "complication": 2
+        },
+        {
+            "case_id": "2821",
+            "complication": 3
+        },
+        {
+            "case_id": "2822",
+            "complication": 5
+        },
+        {
+            "case_id": "2825",
+            "complication": 1
+        },
+        {
+            "case_id": "2826",
+            "complication": 3
+        },
+        {
+            "case_id": "2827",
+            "complication": 1
+        },
+        {
+            "case_id": "2828",
+            "complication": 1
+        },
+        {
+            "case_id": "2829",
+            "complication": 2
+        },
+        {
+            "case_id": "2833",
+            "complication": 1
+        },
+        {
+            "case_id": "2839",
+            "complication": 2
+        },
+        {
+            "case_id": "2846",
+            "complication": 1
+        },
+        {
+            "case_id": "2847",
+            "complication": 1
+        },
+        {
+            "case_id": "2912",
+            "complication": 1
+        }
+    ],
+    "60829": [
+        {
+            "case_id": "2140",
+            "complication": 4
+        },
+        {
+            "case_id": "2141",
+            "complication": 3
+        },
+        {
+            "case_id": "2142",
+            "complication": 5
+        },
+        {
+            "case_id": "2151",
+            "complication": 1
+        },
+        {
+            "case_id": "2169",
+            "complication": 9
+        },
+        {
+            "case_id": "2171",
+            "complication": 4
+        },
+        {
+            "case_id": "2173",
+            "complication": 3
+        },
+        {
+            "case_id": "2182",
+            "complication": 4
+        },
+        {
+            "case_id": "2183",
+            "complication": 2
+        },
+        {
+            "case_id": "2184",
+            "complication": 2
+        },
+        {
+            "case_id": "2185",
+            "complication": 3
+        },
+        {
+            "case_id": "2186",
+            "complication": 2
+        },
+        {
+            "case_id": "2212",
+            "complication": 5
+        },
+        {
+            "case_id": "2252",
+            "complication": 4
+        },
+        {
+            "case_id": "2280",
+            "complication": 3
+        },
+        {
+            "case_id": "2283",
+            "complication": 4
+        },
+        {
+            "case_id": "2291",
+            "complication": 2
+        },
+        {
+            "case_id": "2307",
+            "complication": 6
+        },
+        {
+            "case_id": "2340",
+            "complication": 6
+        },
+        {
+            "case_id": "2341",
+            "complication": 3
+        },
+        {
+            "case_id": "2342",
+            "complication": 4
+        },
+        {
+            "case_id": "2344",
+            "complication": 5
+        },
+        {
+            "case_id": "2345",
+            "complication": 6
+        },
+        {
+            "case_id": "2356",
+            "complication": 6
+        },
+        {
+            "case_id": "2358",
+            "complication": 3
+        },
+        {
+            "case_id": "2386",
+            "complication": 13
+        },
+        {
+            "case_id": "2388",
+            "complication": 3
+        },
+        {
+            "case_id": "2389",
+            "complication": 3
+        },
+        {
+            "case_id": "2394",
+            "complication": 5
+        },
+        {
+            "case_id": "2395",
+            "complication": 6
+        },
+        {
+            "case_id": "2423",
+            "complication": 9
+        },
+        {
+            "case_id": "2425",
+            "complication": 5
+        },
+        {
+            "case_id": "2426",
+            "complication": 4
+        },
+        {
+            "case_id": "2438",
+            "complication": 1
+        },
+        {
+            "case_id": "2440",
+            "complication": 1
+        },
+        {
+            "case_id": "2441",
+            "complication": 1
+        },
+        {
+            "case_id": "2442",
+            "complication": 1
+        },
+        {
+            "case_id": "2444",
+            "complication": 11
+        },
+        {
+            "case_id": "2445",
+            "complication": 1
+        },
+        {
+            "case_id": "2466",
+            "complication": 8
+        },
+        {
+            "case_id": "2467",
+            "complication": 4
+        },
+        {
+            "case_id": "2474",
+            "complication": 5
+        },
+        {
+            "case_id": "2490",
+            "complication": 1
+        },
+        {
+            "case_id": "2494",
+            "complication": 4
+        },
+        {
+            "case_id": "2498",
+            "complication": 4
+        },
+        {
+            "case_id": "2527",
+            "complication": 6
+        },
+        {
+            "case_id": "2530",
+            "complication": 1
+        },
+        {
+            "case_id": "2531",
+            "complication": 1
+        },
+        {
+            "case_id": "2534",
+            "complication": 1
+        },
+        {
+            "case_id": "2535",
+            "complication": 1
+        },
+        {
+            "case_id": "2537",
+            "complication": 1
+        },
+        {
+            "case_id": "2542",
+            "complication": 1
+        },
+        {
+            "case_id": "2558",
+            "complication": 7
+        },
+        {
+            "case_id": "2561",
+            "complication": 9
+        },
+        {
+            "case_id": "2589",
+            "complication": 3
+        },
+        {
+            "case_id": "2592",
+            "complication": 3
+        },
+        {
+            "case_id": "2607",
+            "complication": 6
+        },
+        {
+            "case_id": "2610",
+            "complication": 4
+        },
+        {
+            "case_id": "2614",
+            "complication": 4
+        },
+        {
+            "case_id": "2615",
+            "complication": 7
+        },
+        {
+            "case_id": "2617",
+            "complication": 4
+        },
+        {
+            "case_id": "2618",
+            "complication": 6
+        },
+        {
+            "case_id": "2629",
+            "complication": 4
+        },
+        {
+            "case_id": "2647",
+            "complication": 2
+        },
+        {
+            "case_id": "2701",
+            "complication": 20
+        },
+        {
+            "case_id": "2741",
+            "complication": 1
+        }
+    ],
+
+    "60832": [
+        {
+            "case_id": "2140",
+            "complication": 4
+        },
+        {
+            "case_id": "2141",
+            "complication": 3
+        },
+        {
+            "case_id": "2142",
+            "complication": 5
+        },
+        {
+            "case_id": "2151",
+            "complication": 1
+        },
+        {
+            "case_id": "2169",
+            "complication": 9
+        },
+        {
+            "case_id": "2171",
+            "complication": 4
+        },
+        {
+            "case_id": "2173",
+            "complication": 3
+        },
+        {
+            "case_id": "2182",
+            "complication": 4
+        },
+        {
+            "case_id": "2183",
+            "complication": 2
+        },
+        {
+            "case_id": "2184",
+            "complication": 2
+        },
+        {
+            "case_id": "2185",
+            "complication": 3
+        },
+        {
+            "case_id": "2186",
+            "complication": 2
+        },
+        {
+            "case_id": "2212",
+            "complication": 5
+        },
+        {
+            "case_id": "2252",
+            "complication": 4
+        },
+        {
+            "case_id": "2280",
+            "complication": 3
+        },
+        {
+            "case_id": "2283",
+            "complication": 4
+        },
+        {
+            "case_id": "2291",
+            "complication": 2
+        },
+        {
+            "case_id": "2307",
+            "complication": 6
+        },
+        {
+            "case_id": "2340",
+            "complication": 6
+        },
+        {
+            "case_id": "2341",
+            "complication": 3
+        },
+        {
+            "case_id": "2342",
+            "complication": 4
+        },
+        {
+            "case_id": "2344",
+            "complication": 5
+        },
+        {
+            "case_id": "2345",
+            "complication": 6
+        },
+        {
+            "case_id": "2356",
+            "complication": 6
+        },
+        {
+            "case_id": "2358",
+            "complication": 3
+        },
+        {
+            "case_id": "2386",
+            "complication": 13
+        },
+        {
+            "case_id": "2388",
+            "complication": 3
+        },
+        {
+            "case_id": "2389",
+            "complication": 3
+        },
+        {
+            "case_id": "2394",
+            "complication": 5
+        },
+        {
+            "case_id": "2395",
+            "complication": 6
+        },
+        {
+            "case_id": "2423",
+            "complication": 9
+        },
+        {
+            "case_id": "2425",
+            "complication": 5
+        },
+        {
+            "case_id": "2426",
+            "complication": 4
+        },
+        {
+            "case_id": "2438",
+            "complication": 1
+        },
+        {
+            "case_id": "2440",
+            "complication": 6
+        },
+        {
+            "case_id": "2442",
+            "complication": 1
+        },
+        {
+            "case_id": "2444",
+            "complication": 11
+        },
+        {
+            "case_id": "2445",
+            "complication": 6
+        },
+        {
+            "case_id": "2466",
+            "complication": 8
+        },
+        {
+            "case_id": "2467",
+            "complication": 4
+        },
+        {
+            "case_id": "2474",
+            "complication": 5
+        },
+        {
+            "case_id": "2494",
+            "complication": 1
+        },
+        {
+            "case_id": "2498",
+            "complication": 1
+        },
+        {
+            "case_id": "2527",
+            "complication": 6
+        },
+        {
+            "case_id": "2530",
+            "complication": 1
+        },
+        {
+            "case_id": "2531",
+            "complication": 1
+        },
+        {
+            "case_id": "2535",
+            "complication": 4
+        },
+        {
+            "case_id": "2542",
+            "complication": 4
+        },
+        {
+            "case_id": "2558",
+            "complication": 7
+        },
+        {
+            "case_id": "2561",
+            "complication": 9
+        },
+        {
+            "case_id": "2589",
+            "complication": 3
+        },
+        {
+            "case_id": "2592",
+            "complication": 3
+        },
+        {
+            "case_id": "2607",
+            "complication": 6
+        },
+        {
+            "case_id": "2610",
+            "complication": 4
+        },
+        {
+            "case_id": "2614",
+            "complication": 4
+        },
+        {
+            "case_id": "2615",
+            "complication": 7
+        },
+        {
+            "case_id": "2617",
+            "complication": 4
+        },
+        {
+            "case_id": "2618",
+            "complication": 6
+        },
+        {
+            "case_id": "2629",
+            "complication": 4
+        },
+        {
+            "case_id": "2647",
+            "complication": 2
+        },
+        {
+            "case_id": "2701",
+            "complication": 1
+        },
+        {
+            "case_id": "2718",
+            "complication": 1
+        },
+        {
+            "case_id": "2741",
+            "complication": 3
+        }
+    ],
     "60833": [
         {
             "case_id": "2063",
@@ -90241,6 +91655,116 @@
         {
             "case_id": "2958",
             "complication": 5
+        }
+    ],
+  "60866": [
+        {
+            "case_id": "2436",
+            "complication": 1
+        },
+        {
+            "case_id": "2440",
+            "complication": 1
+        },
+        {
+            "case_id": "2442",
+            "complication": 1
+        },
+        {
+            "case_id": "2443",
+            "complication": 1
+        },
+        {
+            "case_id": "2444",
+            "complication": 1
+        },
+        {
+            "case_id": "2445",
+            "complication": 1
+        },
+        {
+            "case_id": "2448",
+            "complication": 1
+        },
+        {
+            "case_id": "2456",
+            "complication": 1
+        },
+        {
+            "case_id": "2467",
+            "complication": 4
+        },
+        {
+            "case_id": "2468",
+            "complication": 6
+        },
+        {
+            "case_id": "2489",
+            "complication": 4
+        },
+        {
+            "case_id": "2491",
+            "complication": 3
+        },
+        {
+            "case_id": "2494",
+            "complication": 4
+        },
+        {
+            "case_id": "2500",
+            "complication": 3
+        },
+        {
+            "case_id": "2522",
+            "complication": 4
+        },
+        {
+            "case_id": "2528",
+            "complication": 2
+        },
+        {
+            "case_id": "2535",
+            "complication": 1
+        },
+        {
+            "case_id": "2536",
+            "complication": 6
+        },
+        {
+            "case_id": "2538",
+            "complication": 4
+        },
+        {
+            "case_id": "2564",
+            "complication": 1
+        },
+        {
+            "case_id": "2601",
+            "complication": 6
+        },
+        {
+            "case_id": "2602",
+            "complication": 1
+        },
+        {
+            "case_id": "2604",
+            "complication": 4
+        },
+        {
+            "case_id": "2692",
+            "complication": 1
+        },
+        {
+            "case_id": "2729",
+            "complication": 1
+        },
+        {
+            "case_id": "2741",
+            "complication": 3
+        },
+        {
+            "case_id": "2819",
+            "complication": 2
         }
     ],
     "60870": [
@@ -97309,6 +98833,264 @@
             "complication": 5
         }
     ],
+  "61048": [
+        {
+            "case_id": "2374",
+            "complication": 4
+        },
+        {
+            "case_id": "2442",
+            "complication": 1
+        },
+        {
+            "case_id": "2469",
+            "complication": 11
+        },
+        {
+            "case_id": "2483",
+            "complication": 5
+        },
+        {
+            "case_id": "2484",
+            "complication": 2
+        },
+        {
+            "case_id": "2485",
+            "complication": 5
+        },
+        {
+            "case_id": "2487",
+            "complication": 6
+        },
+        {
+            "case_id": "2519",
+            "complication": 1
+        },
+        {
+            "case_id": "2527",
+            "complication": 6
+        },
+        {
+            "case_id": "2528",
+            "complication": 1
+        },
+        {
+            "case_id": "2530",
+            "complication": 1
+        },
+        {
+            "case_id": "2531",
+            "complication": 1
+        },
+        {
+            "case_id": "2557",
+            "complication": 4
+        },
+        {
+            "case_id": "2559",
+            "complication": 5
+        },
+        {
+            "case_id": "2560",
+            "complication": 6
+        },
+        {
+            "case_id": "2590",
+            "complication": 5
+        },
+        {
+            "case_id": "2646",
+            "complication": 3
+        },
+        {
+            "case_id": "2649",
+            "complication": 3
+        },
+        {
+            "case_id": "2701",
+            "complication": 20
+        },
+        {
+            "case_id": "2703",
+            "complication": 10
+        },
+        {
+            "case_id": "2717",
+            "complication": 1
+        },
+        {
+            "case_id": "2721",
+            "complication": 2
+        },
+        {
+            "case_id": "2724",
+            "complication": 10
+        },
+        {
+            "case_id": "2725",
+            "complication": 3
+        },
+        {
+            "case_id": "2727",
+            "complication": 2
+        },
+        {
+            "case_id": "2728",
+            "complication": 2
+        },
+        {
+            "case_id": "2729",
+            "complication": 1
+        },
+        {
+            "case_id": "2730",
+            "complication": 3
+        },
+        {
+            "case_id": "2731",
+            "complication": 6
+        },
+        {
+            "case_id": "2732",
+            "complication": 2
+        },
+        {
+            "case_id": "2761",
+            "complication": 2
+        },
+        {
+            "case_id": "2815",
+            "complication": 5
+        },
+        {
+            "case_id": "2824",
+            "complication": 5
+        },
+        {
+            "case_id": "2830",
+            "complication": 1
+        },
+        {
+            "case_id": "2831",
+            "complication": 1
+        },
+        {
+            "case_id": "2832",
+            "complication": 3
+        },
+        {
+            "case_id": "2835",
+            "complication": 3
+        },
+        {
+            "case_id": "2836",
+            "complication": 5
+        },
+        {
+            "case_id": "2837",
+            "complication": 1
+        },
+        {
+            "case_id": "2838",
+            "complication": 1
+        },
+        {
+            "case_id": "2840",
+            "complication": 3
+        },
+        {
+            "case_id": "2842",
+            "complication": 4
+        },
+        {
+            "case_id": "2843",
+            "complication": 2
+        },
+        {
+            "case_id": "2844",
+            "complication": 3
+        },
+        {
+            "case_id": "2845",
+            "complication": 1
+        },
+        {
+            "case_id": "2848",
+            "complication": 2
+        },
+        {
+            "case_id": "2850",
+            "complication": 3
+        },
+        {
+            "case_id": "2851",
+            "complication": 1
+        },
+        {
+            "case_id": "2852",
+            "complication": 3
+        },
+        {
+            "case_id": "2853",
+            "complication": 2
+        },
+        {
+            "case_id": "2855",
+            "complication": 9
+        },
+        {
+            "case_id": "2858",
+            "complication": 3
+        },
+        {
+            "case_id": "2859",
+            "complication": 4
+        },
+        {
+            "case_id": "2861",
+            "complication": 1
+        },
+        {
+            "case_id": "2863",
+            "complication": 1
+        },
+        {
+            "case_id": "2865",
+            "complication": 3
+        },
+        {
+            "case_id": "2866",
+            "complication": 1
+        },
+        {
+            "case_id": "2867",
+            "complication": 2
+        },
+        {
+            "case_id": "2868",
+            "complication": 2
+        },
+        {
+            "case_id": "2870",
+            "complication": 4
+        },
+        {
+            "case_id": "2872",
+            "complication": 3
+        },
+        {
+            "case_id": "2873",
+            "complication": 1
+        },
+        {
+            "case_id": "2875",
+            "complication": 2
+        },
+        {
+            "case_id": "2877",
+            "complication": 3
+        }
+    ],
     "61053": [
         {
             "case_id": "2061",
@@ -101077,6 +102859,16 @@
         {
             "case_id": "2985",
             "complication": 3
+        }
+    ],
+  "61715": [
+        {
+            "case_id": "2442",
+            "complication": 5
+        },
+        {
+            "case_id": "2528",
+            "complication": 2
         }
     ],
     "8160": [
