@@ -39,7 +39,7 @@ def sigmoid(z):
 def trainning(dataset, labelset, weight1, weight2, value1, value2, train_seg):
     # x为步长
     x = 0.01
-    for i in range(len(train_seg)):
+    for i in range(train_seg):
         # 输入数据
         inputset = np.mat(dataset[i]).astype(np.float64)
         # 数据标签
@@ -70,7 +70,7 @@ def trainning(dataset, labelset, weight1, weight2, value1, value2, train_seg):
     return weight1, weight2, value1, value2
 
 
-def calculate_loss(dataset, labelset, weight1, weight2, begin_seg, end_seg):
+def calculate_loss(dataset, labelset, weight1, weight2, value1, value2, begin_seg, end_seg):
     loss = 0
     for i in range(begin_seg, end_seg):
         # 输入数据
@@ -85,29 +85,25 @@ def calculate_loss(dataset, labelset, weight1, weight2, begin_seg, end_seg):
         output3 = sigmoid(input2 - value2).astype(np.float64)
         # 计算loss
         loss += 1 / 2 * (output3 - labelset[i]) ** 2
-    return loss / (end_seg - begin_seg + 1)
+    return loss / (end_seg - begin_seg)
 
 
-def testing(dataset, labelset, weight1, weight2, value1, value2):
+def accuracy_test(dataset, labelset, weight1, weight2, value1, value2, begin_seg, end_seg):
     # 记录预测正确的个数
     rightcount = 0
-    for i in range(len(dataset)):
+    for i in range(begin_seg, end_seg):
         # 计算每一个样例通过该神经网路后的预测值
         inputset = np.mat(dataset[i]).astype(np.float64)
         outputset = np.mat(labelset[i]).astype(np.float64)
         output2 = sigmoid(np.dot(inputset, weight1) - value1)
         output3 = sigmoid(np.dot(output2, weight2) - value2)
         # 确定其预测标签
-        if output3 > 0.5:
-            flag = 1
-        else:
-            flag = 0
-        if labelset[i] == flag:
+        if output3 - labelset[i] <= 0.17582 and labelset[i] - output3 <= 0.17582:
             rightcount += 1
         # 输出预测结果
-        print("预测为%d   实际为%d" % (flag, labelset[i]))
+        print("预测为%f   实际为%f" % (output3, labelset[i]))
     # 返回正确率
-    return rightcount / len(dataset)
+    return rightcount / (end_seg - begin_seg)
 
 
 if __name__ == '__main__':
@@ -115,15 +111,23 @@ if __name__ == '__main__':
     train_seg = int(0.6 * len(dataset))
     validate_seg = int(0.8 * len(dataset))
     test_seg = len(dataset)
-    weight1, weight2, value1, value2 = parameter_initialization(len(dataset[0]), len(dataset[0]), 1)
-    train_loss = calculate_loss(dataset, labelset, weight1, weight2, 0, train_seg)
-    validate_loss = calculate_loss(dataset, labelset, weight1, weight2, train_seg, validate_seg)
+    nodes = 3
+    weight1, weight2, value1, value2 = parameter_initialization(len(dataset[0]), nodes, 1)
+    train_loss = calculate_loss(dataset, labelset, weight1, weight2, value1, value2, 0, train_seg)
+    validate_loss = calculate_loss(dataset, labelset, weight1, weight2, value1, value2, train_seg, validate_seg)
     for i in range(1500):
-        weight1, weight2, value1, value2 = trainning(dataset, labelset, weight1, weight2, value1, value2, train_seg,
-                                                     validate_seg)
-        tmp_train_loss = calculate_loss(dataset, labelset, weight1, weight2, 0, train_seg)
-        tmp_validate_loss = calculate_loss(dataset, labelset, weight1, weight2, train_seg, validate_seg)
-        if tmp_train_loss <= train_loss && tmp_validate_loss >= validate_loss:
+        weight1, weight2, value1, value2 = trainning(dataset, labelset, weight1, weight2, value1, value2, train_seg)
+        tmp_train_loss = calculate_loss(dataset, labelset, weight1, weight2, value1, value2, 0, train_seg)
+        tmp_validate_loss = calculate_loss(dataset, labelset, weight1, weight2, value1, value2, train_seg, validate_seg)
+        if tmp_train_loss <= train_loss and tmp_validate_loss >= validate_loss:
             break
-    # rate = testing(dataset, labelset, weight1, weight2, value1, value2)
-    # print("正确率为%f" % (rate))
+        train_loss = tmp_train_loss
+        validate_loss = tmp_validate_loss
+    accuracy = accuracy_test(dataset,labelset,weight1,weight2,value1,value2,validate_seg,test_seg)
+    file = open('result.txt', mode='a')
+    file.write(str(nodes)+"\n"+str(accuracy)+"\n"+str(weight1)+"\n"+str(weight2)+"\n"+str(value1)+"\n"+str(value2)+"\n\n")
+    file.close()
+    file1 = open('result_short.txt',mode='a')
+    file1.write(str(nodes) + " " + str(accuracy) + "\n")
+    file1.close()
+    print(accuracy)
