@@ -37,9 +37,11 @@ def prepare_data_json2txt():
     # json to txt
     file = open('bp_data2.txt', mode='w')
     i=1
+    min = -1.386544759
+    max = 2.129893327
     for user in data1:
         file.write(str(data1[user]) + " " + str(data2[user]) + " " + str(data3[user]) + " " + str(data4[user]) + " " + str(data5[
-            user]) + " " + str(sh.cell(i,6).value) + "\n")
+            user]) + " " + str((sh.cell(i, 6).value - min) / (max - min)) + "\n")
         i+=1
     file.close()
 
@@ -61,5 +63,4 @@ def prepare_data_xls2txt():
 
 
 if __name__ == '__main__':
-    # problem: TestTimeOS，complicationRes1 数据不全
-    prepare_data_xls2txt()
+    prepare_data_json2txt()

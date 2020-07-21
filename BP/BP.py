@@ -107,11 +107,11 @@ def accuracy_test(dataset, labelset, weight1, weight2, value1, value2, begin_seg
 
 
 if __name__ == '__main__':
-    dataset, labelset = load_dataset('bp_data.txt')
+    dataset, labelset = load_dataset('bp_data2.txt')
     train_seg = int(0.6 * len(dataset))
     validate_seg = int(0.8 * len(dataset))
     test_seg = len(dataset)
-    nodes = 3
+    nodes = 5
     weight1, weight2, value1, value2 = parameter_initialization(len(dataset[0]), nodes, 1)
     train_loss = calculate_loss(dataset, labelset, weight1, weight2, value1, value2, 0, train_seg)
     validate_loss = calculate_loss(dataset, labelset, weight1, weight2, value1, value2, train_seg, validate_seg)
@@ -127,7 +127,7 @@ if __name__ == '__main__':
     file = open('result.txt', mode='a')
     file.write(str(nodes)+"\n"+str(accuracy)+"\n"+str(weight1)+"\n"+str(weight2)+"\n"+str(value1)+"\n"+str(value2)+"\n\n")
     file.close()
-    file1 = open('result_short.txt',mode='a')
+    file1 = open('result_short.txt', mode='a')
     file1.write(str(nodes) + " " + str(accuracy) + "\n")
     file1.close()
     print(accuracy)
