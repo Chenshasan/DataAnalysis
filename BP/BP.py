@@ -98,10 +98,10 @@ def accuracy_test(dataset, labelset, weight1, weight2, value1, value2, begin_seg
         output2 = sigmoid(np.dot(inputset, weight1) - value1)
         output3 = sigmoid(np.dot(output2, weight2) - value2)
         # 确定其预测标签
-        if output3 - labelset[i] <= 0.17582 and labelset[i] - output3 <= 0.17582:
+        if output3 - labelset[i] <= 0.05 and labelset[i] - output3 <= 0.05:
             rightcount += 1
         # 输出预测结果
-        print("预测为%f   实际为%f" % (output3, labelset[i]))
+        print("预测为%f   实际为%f" % (output3*100, labelset[i]*100))
     # 返回正确率
     return rightcount / (end_seg - begin_seg)
 
@@ -130,4 +130,4 @@ if __name__ == '__main__':
     file1 = open('result_short.txt', mode='a')
     file1.write(str(nodes) + " " + str(accuracy) + "\n")
     file1.close()
-    print(accuracy)
+    print("预测准确率：", accuracy * 100, "%")
