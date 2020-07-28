@@ -1,18 +1,10 @@
 # coding:utf-8
-import codecs
-import string
-from importlib import reload
-
-import pydot
 import ast
 import astunparse
-import os
-import argparse
-import time
+import codecs
 import json
 import os
-import subprocess
-import time
+import pydot
 
 
 class FunctionVisitor(ast.NodeVisitor):
